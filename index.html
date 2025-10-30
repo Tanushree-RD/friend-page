@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To My Forever Friend 💫</title>
+  <style>
+    /* Base */
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #b3e5fc, #f8bbd0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Poppins", sans-serif;
+      overflow: hidden;
+    }
+
+    /* Floating pastel circles */
+    .bubble {
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.5;
+      animation: float 10s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0); opacity: 0.7; }
+      50% { transform: translateY(-40px); opacity: 1; }
+      100% { transform: translateY(0); opacity: 0.7; }
+    }
+
+    /* Card */
+    .card {
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 2rem 3rem;
+      max-width: 400px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      color: #555;
+    }
+
+    p {
+      color: #444;
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 1.5rem;
+    }
+
+    button {
+      border: none;
+      background: #a5d6a7;
+      color: white;
+      font-weight: bold;
+      padding: 0.7rem 1.2rem;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #81c784;
+      transform: scale(1.05);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 15px;
+      font-size: 0.8rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating bubbles -->
+  <div class="bubble" style="width:60px;height:60px;left:10%;background:#ffecb3;"></div>
+  <div class="bubble" style="width:100px;height:100px;right:15%;background:#c5cae9;animation-delay:2s;"></div>
+  <div class="bubble" style="width:80px;height:80px;top:20%;left:70%;background:#b2dfdb;animation-delay:4s;"></div>
+
+  <!-- Main card -->
+  <div class="card">
+    <h1>To My Forever Friend 💛</h1>
+    <p>
+      Hey buddy,<br><br>
+      Just wanted to drop this here — a tiny corner of the internet for the one
+      who always brings chaos *and* comfort.<br><br>
+      Distance, time zones, and adulting can try their best, but they’ll never beat our friendship.<br><br>
+      Thanks for being you — the laughter, the late-night rants, the honesty, and the memes.
+    </p>
+    <div class="buttons">
+      <button onclick="alert('Miss you, dork 😜')">Reply 💬</button>
+      <button onclick="alert('Surprise! You’re awesome 💫')">Surprise 🎉</button>
+    </div>
+  </div>
+
+  <footer>Made with 💙 for my forever friend.</footer>
+</body>
+</html>
