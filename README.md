@@ -20,7 +20,7 @@ Simple, responsive layout
  How to View
 
 You can check it out here:
- Live Demo on GitHub Pages
+ https://tanushree-rd.github.io/friend-page
 
  Credits
 
